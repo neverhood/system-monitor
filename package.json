@@ -1,0 +1,25 @@
+{
+  "name": "system-monitor",
+  "version": "0.0.1",
+  "description": "System monitoring utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neverhood/system-monitor.git"
+  },
+  "author": "Vlad Khomich <khomich.vlad@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neverhood/system-monitor/issues"
+  },
+  "homepage": "https://github.com/neverhood/system-monitor",
+  "dependencies": {
+    "diskspace": "^0.1.7",
+    "diskusage": "^0.1.2",
+    "mongodb": "^1.4.19",
+    "underscore": "^1.7.0"
+  }
+}
